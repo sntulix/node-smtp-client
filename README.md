@@ -9,14 +9,14 @@ injection attacks.
 
 Use NPM to install:
 
-    npm install mail
+    npm install node-smtp-client
 
 ## Sending Mail ##
 
 The `Mail` class encapsulates connection settings and can be used as a
 safe, high-level mailer.
 
-    var mail = require('mail').Mail({
+    var mail = require('node-smtp-client').Mail({
       host: 'smtp.gmail.com',
       username: 'me@gmail.com',
       password: '**password**'
